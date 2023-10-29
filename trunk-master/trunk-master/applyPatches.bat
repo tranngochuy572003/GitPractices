@@ -1,4 +1,5 @@
 @echo off
+echo nothing to do here
 
 cls
 pushd %~dp0
