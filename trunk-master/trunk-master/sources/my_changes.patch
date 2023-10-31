@@ -1,0 +1,14 @@
+diff --git a/trunk-master/trunk-master/sources/Utils.cpp b/trunk-master/trunk-master/sources/Utils.cpp
+index 2c2482d..05d58e0 100644
+--- a/trunk-master/trunk-master/sources/Utils.cpp
++++ b/trunk-master/trunk-master/sources/Utils.cpp
+@@ -40,4 +40,8 @@ int Utils::Random(int min, int max)
+ 	int random = rand() % max + min;
+ 
+ 	return random;
++}
++int Add(int a, int b)
++{
++return a + b;
+ }
+\ No newline at end of file
